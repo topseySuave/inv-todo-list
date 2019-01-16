@@ -6,13 +6,15 @@
     "bulma": "^0.7.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts-ts": "3.1.0"
+    "react-scripts-ts": "3.1.0",
+    "react-spring": "^7.2.8"
   },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "deploy": "yarn build && cd build && now"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",

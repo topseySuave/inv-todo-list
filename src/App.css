@@ -1,28 +1,69 @@
-.App {
-  text-align: center;
+.app-container {
+  padding: 10px;
+  margin-bottom: 100px;
+  width: 40vw;
+  margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+form {
+  padding-bottom: 20px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.item-input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  color: #CCC;
+  padding: 10px 0;
+  font-size: 1em;
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-title {
-  font-size: 1.5em;
+button[type="submit"]:hover {
+  transform: scale(1.5);
 }
 
-.App-intro {
-  font-size: large;
+.item-input::placeholder {
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.list-group {
+  margin-top: 2em;
+}
+
+.list-group li {
+  align-items: center;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.list-group li:nth-child(3n) .list label {
+  color: rgba(66, 139, 66, .7);
+}
+
+.done-list {
+  margin-top: 2em;
+}
+
+.done-list .list-group {
+  margin-top: 0px;
+}
+
+.done-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bonus {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  font-size: smaller;
 }
