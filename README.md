@@ -2,6 +2,7 @@
 
 Visit app [https://build-6fenyerjf.now.sh](https://build-6fenyerjf.now.sh)
 
+![](https://github.com/topseySuave/inv-todo-list/blob/setup-app/public/Screen%20Shot%202019-01-16%20at%204.49.23%20PM.png)
 
 ## to install and run first clone this repo
 
