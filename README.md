@@ -4,7 +4,8 @@ Visit app (https://build-6fenyerjf.now.sh)[https://build-6fenyerjf.now.sh]
 
 
 ## to install and run first clone this repo
-````
+
+```
 git clone https://github.com/topseySuave/inv-todo-list.git
 ```
 with `http` or 
@@ -12,7 +13,7 @@ with `http` or
 ```
 git clone git@github.com:topseySuave/inv-todo-list.git
 ```
-with ssh.
+with `ssh`.
 
 ```
 cd into the directory `cd int-todo-list` and run `yarn install`
