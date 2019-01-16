@@ -20,7 +20,7 @@ with `ssh`.
 cd into the directory `cd int-todo-list` and run `yarn install`
 ```
 
-After installing, you should be able to run the application by simple running this command
+After installing, you should be able to run the application by simply running this command
 ```
 yarn start
 ```
