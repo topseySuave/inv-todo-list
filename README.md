@@ -1,6 +1,6 @@
 ### Invisible Todo Application Demo
 
-Visit app (https://build-6fenyerjf.now.sh)[https://build-6fenyerjf.now.sh]
+Visit app [https://build-6fenyerjf.now.sh](https://build-6fenyerjf.now.sh)
 
 
 ## to install and run first clone this repo
